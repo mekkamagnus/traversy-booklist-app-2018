@@ -1,0 +1,37 @@
+[01:31:07.359] Global cache location '/Users/mekael/Library/Caches/typescript/4.5', safe file path '/usr/local/lib/node_modules/typescript/lib/typingsafelist.json', types map path /usr/local/lib/node_modules/typescript/lib/typesmap.json
+[01:31:07.361] Processing cache location '/Users/mekael/Library/Caches/typescript/4.5'
+[01:31:07.361] Trying to find '/Users/mekael/Library/Caches/typescript/4.5/package.json'...
+[01:31:07.363] Loaded content of '/Users/mekael/Library/Caches/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.571"},"devDependencies":{"@types/object-assign":"^4.0.30","@types/react":"^17.0.37"}}
+[01:31:07.363] Loaded content of '/Users/mekael/Library/Caches/typescript/4.5/package-lock.json'
+[01:31:07.376] Adding entry into typings cache: 'object-assign' => '/Users/mekael/Library/Caches/typescript/4.5/node_modules/@types/object-assign/index.d.ts'
+[01:31:07.388] Adding entry into typings cache: 'react' => '/Users/mekael/Library/Caches/typescript/4.5/node_modules/@types/react/index.d.ts'
+[01:31:07.388] Finished processing cache location '/Users/mekael/Library/Caches/typescript/4.5'
+[01:31:07.391] Process id: 19484
+[01:31:07.391] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[01:31:07.391] validateDefaultNpmLocation: false
+[01:31:07.392] Npm config file: /Users/mekael/Library/Caches/typescript/4.5/package.json
+[01:31:07.392] Updating types-registry npm package...
+[01:31:07.392] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[01:31:09.883]     Succeeded. stdout:
+    
+    changed 1 package, and audited 7 packages in 2s
+
+found 0 vulnerabilities
+
+[01:31:09.883] Updated types-registry npm package
+[01:31:09.918] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/app.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018","kind":"discover"}
+[01:31:09.930] Loaded safelist from types map file '/usr/local/lib/node_modules/typescript/lib/typesmap.json'
+[01:31:09.931] Explicitly included types: []
+[01:31:09.931] Inferred typings from unresolved imports: []
+[01:31:09.931] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/bower_components","/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/node_modules"]}
+[01:31:09.932] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/bower_components","/Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/node_modules"]}
+[01:31:09.932] DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/bower_components
+[01:31:09.933] DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:31:09.934] Elapsed:: 0.8311740010976791ms DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:31:09.934] DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/node_modules
+[01:31:09.934] DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:31:09.935] Elapsed:: 0.10232599079608917ms DirectoryWatcher:: Added:: WatchInfo: /Users/mekael/OneDrive/Programming/Projects/traversy-booklist-app-2018/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[01:31:09.935] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[01:31:09.935] Response has been sent.
+[01:31:09.935] No new typings were requested as a result of typings discovery
